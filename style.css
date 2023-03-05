@@ -1,0 +1,30 @@
+p.time{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+ a:link {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+  a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+  
+a:active {
+    color: rgb(15, 158, 91);
+    text-decoration: none;
+} 
+div.main{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+}
+  
