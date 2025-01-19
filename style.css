@@ -19,6 +19,7 @@ body {
     background-color: rgb(204, 102, 0)
 
 }
+
  a:link {
     color: red;
     text-decoration: none;
@@ -36,8 +37,10 @@ a:active {
     text-decoration: none;
 } 
 p.time{
-    color: rgb(255, 0, 0);
+    color: rgb(92, 50, 92);
     font-weight: bold;
+    font-family: cursive;
+    font-size: 1.5em;
 }
 div.container {
 	height: 100%;
@@ -49,6 +52,30 @@ div.main{
     background-color: rgb(255, 255, 255);
     margin: auto;
     width: 25%;
+    border-radius: 45px;
+    text-align: center;
 }
+a.link {
+    --s: 0.3em;   /* the thickness of the line */
+    --c: hotpink; /* the color */
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+    a.link:hover {--_p: 100%;
+        color: hotpink;}
+  
+  a.link {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
 
   
